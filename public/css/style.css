@@ -122,27 +122,27 @@ body
 
 
 .popup-box .popup-messages {
-    background: #3f9684 none repeat scroll 0 0;
-    height: 1000px;
+    height: 650px;
     overflow: auto;
 }
 .direct-chat-messages {
+    overflow: auto;
     padding: 10px;
     transform: translate(0px, 0px);
 
 }
-.popup-messages .chat-box-single-line {
-    border-bottom: 1px solid #a4c6b5;
-    height: 12px;
-    margin: 7px 0 20px;
-    position: relative;
-    text-align: center;
-}
-.popup-messages abbr.timestamp {
-    background: #3f9684 none repeat scroll 0 0;
-    color: #fff;
-    padding: 0 11px;
-}
+/*.popup-messages .chat-box-single-line {*/
+    /*border-bottom: 1px solid #a4c6b5;*/
+    /*height: 12px;*/
+    /*margin: 7px 0 20px;*/
+    /*position: relative;*/
+    /*text-align: center;*/
+/*}*/
+/*.popup-messages abbr.timestamp {*/
+    /*background: #3f9684 none repeat scroll 0 0;*/
+    /*color: #fff;*/
+    /*padding: 0 11px;*/
+/*}*/
 
 .popup-head-right .btn-group {
     display: inline-flex;
@@ -168,57 +168,61 @@ body
     color: #303030;
 }
 
-.popup-messages abbr.timestamp {
-    background: #3f9684  none repeat scroll 0 0;
-    color: #fff;
-    padding: 0 11px;
-}
-.popup-messages .chat-box-single-line {
-    border-bottom: 1px solid #a4c6b5;
-    height: 12px;
-    margin: 7px 0 20px;
-    position: relative;
-    text-align: center;
-}
+/*.popup-messages abbr.timestamp {*/
+    /*background: #3f9684  none repeat scroll 0 0;*/
+    /*color: #fff;*/
+    /*padding: 0 11px;*/
+/*}*/
+/*.popup-messages .chat-box-single-line {*/
+    /*border-bottom: 1px solid #a4c6b5;*/
+    /*height: 12px;*/
+    /*margin: 7px 0 20px;*/
+    /*position: relative;*/
+    /*text-align: center;*/
+/*}*/
+
+/* TBD  */
 .popup-messages .direct-chat-messages {
-    height: auto;
+    max-height: 520px;
+    overflow-y: scroll;
+    /*height: auto; */
 }
-.popup-messages .direct-chat-text {
-    background: #dfece7 none repeat scroll 0 0;
-    border: 1px solid #dfece7;
-    border-radius: 2px;
-    color: #1f2121;
-}
+/*.popup-messages .direct-chat-text {*/
+    /*background: #dfece7 none repeat scroll 0 0;*/
+    /*border: 1px solid #dfece7;*/
+    /*border-radius: 2px;*/
+    /*color: #1f2121;*/
+/*}*/
 
-.popup-messages .direct-chat-timestamp {
-    color: #fff;
-    opacity: 0.6;
-}
+/*.popup-messages .direct-chat-timestamp {*/
+    /*color: #fff;*/
+    /*opacity: 0.6;*/
+/*}*/
 
-.popup-messages .direct-chat-name {
-    font-size: 15px;
-    font-weight: 600;
-    margin: 0 0 0 49px !important;
-    color: #fff;
-    opacity: 0.9;
-}
-.popup-messages .direct-chat-info {
-    display: block;
-    font-size: 12px;
-    margin-bottom: 0;
-}
-.popup-messages  .big-round {
-    margin: -9px 0 0 !important;
-}
-.popup-messages  .direct-chat-img {
-    border: 1px solid #fff;
-    background: #3f9684  none repeat scroll 0 0;
-    border-radius: 50%;
-    float: left;
-    height: 40px;
-    margin: -21px 0 0;
-    width: 40px;
-}
+/*.popup-messages .direct-chat-name {*/
+    /*font-size: 15px;*/
+    /*font-weight: 600;*/
+    /*margin: 0 0 0 49px !important;*/
+    /*color: #fff;*/
+    /*opacity: 0.9;*/
+/*}*/
+/*.popup-messages .direct-chat-info {*/
+    /*display: block;*/
+    /*font-size: 12px;*/
+    /*margin-bottom: 0;*/
+/*}*/
+/*.popup-messages  .big-round {*/
+    /*margin: -9px 0 0 !important;*/
+/*}*/
+/*.popup-messages  .direct-chat-img {*/
+    /*border: 1px solid #fff;*/
+    /*background: #3f9684  none repeat scroll 0 0;*/
+    /*border-radius: 50%;*/
+    /*float: left;*/
+    /*height: 40px;*/
+    /*margin: -21px 0 0;*/
+    /*width: 40px;*/
+/*}*/
 .direct-chat-reply-name {
     color: #fff;
     font-size: 15px;

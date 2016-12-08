@@ -4,6 +4,7 @@ var socket = io();
 
 
 $(function(){
+
     $("#addClass").click(function () {
         $('#qnimate').addClass('popup-box-on');
         $('#messages').empty();
@@ -21,12 +22,24 @@ $(function(){
                 console.log(err);
             }
         });
-
     });
 
     $("#removeClass").click(function () {
         $('#qnimate').removeClass('popup-box-on');
     });
+
+    $(".popup-messages .direct-chat-messages").animate({ scrollTop: $(this).height() }, "slow");
+        return false;
+
+    // $("#input_message").keyup(function(event){
+    //     if(event.keyCode == 13){
+    //         document.getElementById("submit").onclick();
+    //         //$("#submit").onclick();
+    //         //return submitfunction();
+    //     }
+    // });
+
+
 })
 function submitfunction(){
   //var from = $('#user').val();
